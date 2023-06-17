@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProductActivity"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product's name"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="20dp"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUpdateName"
+
+        android:hint="Product Name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product's Desc"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="20dp"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUpdateDesc"
+
+        android:hint="Product Description"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product's Price"
+        android:textSize="15sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="20dp"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUpdatePrice"
+        android:hint="Product Price"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpdateProduct"
+        android:text="Update Product"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        />
+
+
+
+</LinearLayout>
